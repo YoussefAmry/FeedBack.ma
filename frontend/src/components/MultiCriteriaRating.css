@@ -1,0 +1,86 @@
+.multi-criteria-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.critere-card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px #0001;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.critere-label {
+  font-weight: bold;
+  color: #2d3748;
+  margin-bottom: 6px;
+}
+
+.stars {
+  display: flex;
+  gap: 4px;
+}
+
+.star {
+  font-size: 2rem;
+  color: #e2e8f0;
+  cursor: pointer;
+  transition: transform 0.15s, color 0.15s;
+}
+
+.star.selected {
+  color: #fbbf24;
+  transform: scale(1.2);
+}
+
+.star:hover {
+  color: #fbbf24;
+  transform: scale(1.2);
+}
+
+.btn-commentaire {
+  background: #ef4444;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 6px 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.btn-commentaire:hover {
+  background: #dc2626;
+}
+
+.commentaire-area {
+  margin-top: 8px;
+  border-radius: 8px;
+  border: 1px solid #cbd5e1;
+  padding: 8px;
+  width: 100%;
+  resize: vertical;
+}
+
+.btn-submit {
+  width: 100%;
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  padding: 14px 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 20px;
+  cursor: pointer;
+  box-shadow: 0 2px 8px #0001;
+  transition: background 0.2s;
+}
+
+.btn-submit:hover {
+  background: #1d4ed8;
+} 
