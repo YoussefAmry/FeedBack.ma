@@ -14,6 +14,7 @@ connectDB();
 const app = express();
 app.use(cors({
   origin: [
+    "https://feed-back-99yrgoang-youssef-amrys-projects.vercel.app",
     "https://feed-back-ma.vercel.app"
   ],
   credentials: true
