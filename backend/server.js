@@ -12,7 +12,12 @@ dotenv.config();
 connectDB();
 
 const app = express();
-app.use(cors());
+app.use(cors({
+  origin: [
+    "https://feed-back-ma.vercel.app"
+  ],
+  credentials: true
+}));
 app.use(express.json());
 
 // Servir les fichiers statiques (logos)
